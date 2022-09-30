@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+header{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+.navigation li{
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+}
+.navigation li:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+section.banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.banner-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-img img{
+    height: 100%;
+    width: 100%;
+}
+.banner-info, h1, p{
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+form .button input{
+    background-color: rgb(77, 77, 196);
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    margin-left: 20px;
+}
+form .my input{
+    width: 250px;
+    height: 40px;
+}
+.bg-image{
+
+    height: auto;
+    width: 90%;
+    margin: auto;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.bg-img img{
+    height: 100%;
+    width: 100%;
+}
+.bg-flex{
+    display: flex;
+}
+.link a{
+    border-bottom: 2px solid blue;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.testimonial{
+    background-color: white;
+    width: 70%;
+    box-shadow: 2px 2px 13px 3px grey; 
+    border-radius: 5px;
+    padding: 50px;
+    padding-bottom: 0px;
+    margin-top: 40px;
+}
+.quotes-img{
+      border-radius: 100px;
+      height: 50px;
+}
+.quotes{
+    display: flex;
+}
+.quotes-flex{
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.cta{
+    background-color: #4c4a80;
+    height: auto;
+    width: 100%;
+
+}
+.cta-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 80px 0px;
+}
+.cta-info{
+    width: 50%;
+}
+.form-cta{
+    padding-top: 50px;
+}
+footer{
+    background-color: #1a1943;
+    padding: 80px 0px 80px 0px;
+}
+.footer-flex{
+    width: 90%;
+    margin: auto;
+}
+.contact{
+    display: flex;
+}
+.footer-logo img{
+    padding-bottom: 30px;
+}
+.footer-log{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.about li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.social .fa{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 600px)
+{
+    body{
+        padding: 0px 20px 0px 20px;
+    }
+    header{
+        width: 100%;
+    }
+    section.banner {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .banner-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-info, h1, p {
+         padding-right: 0px;
+        padding-bottom: 20px;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    form .my input {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .bg-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    form .button input {
+       
+        height: 40px;
+        width: 300px;
+        margin-left: 0px;
+    }
+    
+.header-flex {
+    justify-content: center;
+}
+.navigation {
+    display: none;
+}
+.bg-image {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial {
+    background-color: white;
+    width: 80%;
+    text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding: 30px;
+    
+}
+.cta-row {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+}
+.cta {
+    padding: 20px;
+
+}
+.cta-info {
+    width: 100%;
+    text-align: center;
+}
+.form-cta {
+    padding-top: 20px;
+}
+.footer-log {
+    width: 100%;
+    padding-bottom: 30px;
+}
+footer {
+   
+    padding: 50px 20px 50px 20px;
+}
+.footer-flex {
+   flex-direction: column;
+}
+.about{
+    padding-top: 50px;
+}
+.social{
+    padding-top: 30px;
+    text-align: center;
+}
+.bg-inf h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.link{
+    text-align: center;
+}
+    
+    
+}
+    
+
+
